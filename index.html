@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Tips Website</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 20px;
+    }
+
+    /* Form Styles */
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    form label {
+      margin-top: 10px;
+    }
+
+    form input, form textarea, form button {
+      margin-top: 5px;
+      padding: 10px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Health Tips</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#healthy-eating">Healthy Eating</a></li>
+        <li><a href="#exercise-tips">Exercise Tips</a></li>
+        <li><a href="#mental-health">Mental Health</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>About This Website</h2>
+      <p>Welcome to our health tips website! Here, you'll find useful information and advice on healthy eating, exercise, mental health, and more. Explore the sections below to get started.</p>
+    </section>
+
+    <!-- Healthy Eating Section -->
+    <section id="healthy-eating">
+      <h2>Healthy Eating Tips</h2>
+      <p>Here are some simple tips for maintaining a healthy diet:</p>
+      <ul>
+        <li>Eat plenty of fruits and vegetables.</li>
+        <li>Choose whole grains over refined grains.</li>
+        <li>Limit your intake of processed foods and sugars.</li>
+        <li>Stay hydrated by drinking plenty of water.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Healthy Eating" width="400">
+    </section>
+
+    <!-- Exercise Tips Section -->
+    <section id="exercise-tips">
+      <h2>Exercise Tips</h2>
+      <p>Here are some tips to incorporate exercise into your daily routine:</p>
+      <ul>
+        <li>Get at least 30 minutes of moderate exercise daily.</li>
+        <li>Try activities like walking, jogging, or yoga.</li>
+        <li>Strength training twice a week can improve muscle health.</li>
+        <li>Take breaks from sitting by stretching or walking.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Exercise" width="400">
+    </section>
+
+    <!-- Mental Health Section -->
+    <section id="mental-health">
+      <h2>Mental Health Tips</h2>
+      <p>Here are some tips to improve your mental health:</p>
+      <ul>
+        <li>Practice mindfulness and meditation.</li>
+        <li>Get enough sleep every night.</li>
+        <li>Stay connected with friends and family.</li>
+        <li>Seek professional help if needed.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mental Health" width="400">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Health Tips. All rights reserved.</p>
+  </footer>
+</body>
+</html>
